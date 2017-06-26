@@ -2,16 +2,16 @@
   "name": "notable",
   "version": "1.0.0",
   "description": "A Simple NodeJs Application to take notes, much like Google Keep. This app uses Express Framework, Node Js and MongoDB.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-   "dev": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
-  "author": "siwalik",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "mongodb": "^2.2.29"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
